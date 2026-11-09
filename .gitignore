@@ -1,0 +1,15 @@
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# Java build output
+out/
+*.class
+
+# JADE runtime-generated files
+APDescription.txt
+MTPs-Main-Container.txt
+
+# Windows
+desktop.ini
+Thumbs.db
