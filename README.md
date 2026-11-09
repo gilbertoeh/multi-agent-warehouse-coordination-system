@@ -1,5 +1,9 @@
 # Multi-Agent Warehouse Coordination System
 
+A Java-based multi-agent simulation developed with the JADE framework to model the coordination of autonomous robot agents in a warehouse environment.
+
+The system uses a central coordinator agent and multiple robot agents to manage zone coverage, detect and resolve simulated incidents, exchange ACL messages, and evaluate the simulation through a quantitative scoring model.
+
 ## Requirements
 
 - Java JDK 21
@@ -42,11 +46,6 @@ In the validated execution, the three warehouse zones are covered, `robot1` repo
 Expected final result:
 
 `SimulationResult{totalScore=65, totalIncidents=1, resolvedIncidents=1, coveredZones=3}`
-
-
-A Java-based multi-agent simulation developed with the JADE framework to model the coordination of autonomous robot agents in a warehouse environment.
-
-The system uses a central coordinator agent and multiple robot agents to manage zone coverage, detect and resolve simulated incidents, exchange ACL messages, and evaluate the simulation through a quantitative scoring model.
 
 
 ## Architecture
